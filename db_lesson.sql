@@ -81,7 +81,7 @@ select name from people where departments_id=1 order by age
 
 Q9.
 
-select avg(age) as average_age from people where gender=2 group by gender;
+select avg(age) as average_age from people where departments_id=1 and gender=2 group by gender;
 
 Q10.
 
